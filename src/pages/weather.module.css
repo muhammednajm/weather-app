@@ -1,0 +1,79 @@
+.page {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	width: 100%;
+}
+.dates {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 1rem;
+	gap: 1rem;
+}
+.dates li {
+	flex-grow: 1;
+}
+.dates li button {
+	font-size: 1.4rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2pt solid #000000;
+	border-radius: 0.25rem;
+	background: transparent;
+	padding: 1rem;
+}
+.icon {
+	padding-top: 0.75rem;
+	position: relative;
+}
+.icon::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.dates button:hover {
+	cursor: pointer;
+	background: #000000;
+	color: #ffffff;
+}
+.dates button.active {
+	background: #000000;
+	color: #ffffff;
+}
+.temperatures {
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.highTemp {
+	font-weight: bold;
+}
+.lowTemp {
+	font-weight: 300;
+	opacity: 0.5;
+}
+.noSelect {
+	padding: 1rem;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+.noSelect div {
+	font-size: 1.25rem;
+	border: 2pt solid #000000;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}

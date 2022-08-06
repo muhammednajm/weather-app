@@ -1,5 +1,6 @@
 # weather-app
-Weather App. Written in TypeScript using React
+Weather App. Written in TypeScript using React.
+[Demo](https://public-weather-app.netlify.app)
 
 ## How to use
 Clone

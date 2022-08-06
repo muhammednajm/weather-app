@@ -21,3 +21,8 @@ Build first (for production)
 ```bash
 npm run preview
 ```
+
+Development mode
+```bash
+npm run dev
+```

@@ -9,9 +9,9 @@ Weather App. Written in TypeScript using React.
 - Responsive (almost)
 
 ## Skills
-- Web APIs (Geolocation/Permissions/FetchAPI)
-- React (Context API/Routing/Stateless)
-- TypeScript
+- Web APIs ([Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)/[Permissions](https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API)/[FetchAPI](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch))
+- React ([Context API](https://reactjs.org/docs/context.html)/[Routing](https://reactrouter.com/)/[Stateless](https://reactjs.org/docs/components-and-props.html))
+- [TypeScript](https://www.typescriptlang.org/)
 - [OpenWeatherMap](https://openweathermap.org)
 
 ## How to use

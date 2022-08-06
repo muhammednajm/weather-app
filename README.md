@@ -2,6 +2,18 @@
 Weather App. Written in TypeScript using React.
 [Demo](https://public-weather-app.netlify.app)
 
+## Features
+- Automatic dark mode (depends on the device)
+- Live detect network connection
+- Live detect permissions
+- Responsive (almost)
+
+## Skills
+- Web APIs (Geolocation/Permissions/FetchAPI)
+- React (Context API/Routing/Stateless)
+- TypeScript
+- [Demo](https://openweathermap.org)
+
 ## How to use
 Clone
 ```bash

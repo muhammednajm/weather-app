@@ -27,6 +27,15 @@ function getNearerTime(data: { [name: string]: any }): { icon: string, desc: str
 	}
 }
 
+/*
+	Get weekday
+*/
+function weekday(date: string) {
+
+	return new Date(date).toLocaleString('en-us', { weekday:'short' })
+}
+
 export {
 	getNearerTime,
+	weekday,
 }

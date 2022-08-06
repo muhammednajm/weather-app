@@ -1,7 +1,7 @@
 import styles from './weather.module.css'
 import { Outlet, useNavigate, useParams } from 'react-router-dom'
 import { useWeatherService } from '../hooks'
-import { getNearerTime } from '../utils'
+import { getNearerTime, weekday } from '../utils'
 
 function Weatherpage() {
 
@@ -31,7 +31,7 @@ function Weatherpage() {
 									onClick={() => navigate('/' + date)}
 								>
 									<div>
-										<span className={styles.date}>{date}</span>
+										<span className={styles.date}>{weekday(date)}</span>
 									</div>
 									<div className={styles.icon}>
 										<img src={`https://openweathermap.org/img/w/${nearerTime.icon}.png`} alt={nearerTime.desc} />

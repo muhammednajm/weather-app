@@ -22,7 +22,16 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: 1rem;
+}
+.status > div {
+	min-width: calc((100% / 3));
+	display: flex;
+}
+.status > div:nth-child(2) {
+	justify-content: center;
+}
+.status > div:nth-child(3) {
+	justify-content: flex-end;
 }
 .alert {
 	font-size: 1.25rem;
@@ -58,5 +67,8 @@
 	}
 	.header button {
 		order: -1;
+	}
+	.status > div:nth-child(3) {
+		justify-content: center;
 	}
 }

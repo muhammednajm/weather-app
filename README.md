@@ -13,6 +13,7 @@ Weather App. Written in TypeScript using React.
 - React ([Context API](https://reactjs.org/docs/context.html)/[Routing](https://reactrouter.com/)/[Stateless](https://reactjs.org/docs/components-and-props.html))
 - [TypeScript](https://www.typescriptlang.org/)
 - [OpenWeatherMap](https://openweathermap.org)
+- [Vite](https://vitejs.dev/)
 
 ## How to use
 Clone

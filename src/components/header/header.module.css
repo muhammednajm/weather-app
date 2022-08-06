@@ -36,6 +36,21 @@
 	align-items: center;
 	justify-content: center;
 }
+.noConnection {
+	color: red;
+	animation: blink-animation 1000ms steps(2, start) infinite;
+	-webkit-animation: blink-animation 1000ms steps(2, start) infinite;
+}
+@keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
+@-webkit-keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
 @media screen and (max-width: 48rem) {
 	.status {
 		flex-direction: column;

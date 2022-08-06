@@ -12,7 +12,7 @@ Weather App. Written in TypeScript using React.
 - Web APIs (Geolocation/Permissions/FetchAPI)
 - React (Context API/Routing/Stateless)
 - TypeScript
-- [Demo](https://openweathermap.org)
+- [OpenWeatherMap](https://openweathermap.org)
 
 ## How to use
 Clone

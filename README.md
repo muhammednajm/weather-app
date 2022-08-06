@@ -17,7 +17,7 @@ Build first (for production)
 npm run build
 ```
 
-Build first (for production)
+Preview
 ```bash
 npm run preview
 ```

@@ -4,7 +4,7 @@ Weather App. Written in TypeScript using React
 ## How to use
 Clone
 ```bash
-	git clone git@github.com:muhammednajm/weather-app.git
+git clone git@github.com:muhammednajm/weather-app.git
 ```
 
 Install

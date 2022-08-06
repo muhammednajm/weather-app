@@ -1,6 +1,6 @@
 import styles from './header.module.css'
 import { useNavigate } from 'react-router-dom'
-import { useNetwork } from '../../hooks'
+import { useNetwork, useGeolocation } from '../../hooks'
 
 function Header() {
 
@@ -8,10 +8,15 @@ function Header() {
 
 	const isOnline = useNetwork()
 
+	const isGeolocationGranted = useGeolocation()
+
 	return (
 		<header className={styles.header}>
 			<section className={styles.status}>
-				<span>🗺: Tashkent</span>
+				<span>
+					{isGeolocationGranted && `📡 I'm looking for your coordinates`}
+					{!isGeolocationGranted && `📡 denied`}
+				</span>
 				<button
 					onClick={() => navigate('/')}
 				>WeatherApp</button>
